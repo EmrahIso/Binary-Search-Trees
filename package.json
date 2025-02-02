@@ -1,0 +1,28 @@
+{
+  "name": "binary-search-trees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmrahIso/Binary-Search-Trees.git"
+  },
+  "author": "Emrah Isovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmrahIso/Binary-Search-Trees/issues"
+  },
+  "homepage": "https://github.com/EmrahIso/Binary-Search-Trees#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2"
+  }
+}
