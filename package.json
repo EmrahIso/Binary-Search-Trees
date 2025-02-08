@@ -1,7 +1,7 @@
 {
   "name": "binary-search-trees",
   "version": "1.0.0",
-  "description": "",
+  "description": "A JavaScript implementation of balanced binary tree.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
