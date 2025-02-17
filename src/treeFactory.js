@@ -1,11 +1,13 @@
-import { removeDuplicates, mergeSort } from './mergeSort.js';
+import { removeDuplicates } from './removeDuplicates.js';
 import { Node } from './nodeClass.js';
 
 class Tree {
   // array must be sorted
   constructor(arr = []) {
     this.arr = arr;
-    this.root = this.buildTree(removeDuplicates(mergeSort(this.arr)));
+    this.root = this.buildTree(
+      removeDuplicates(this.arr.sort((a, b) => a - b)),
+    );
   }
 
   // Create BST
